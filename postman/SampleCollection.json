@@ -1,1 +1,24 @@
+{
+  "info": {
+    "name": "Sample API Tests",
+    "_postman_id": "1234",
+    "description": "Sample collection to demonstrate automated testing.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Google",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.google.com",
+          "protocol": "https",
+          "host": ["www", "google", "com"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
 
