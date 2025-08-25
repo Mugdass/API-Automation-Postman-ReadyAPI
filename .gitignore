@@ -1,1 +1,22 @@
+# Node modules (for local Newman installs)
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Env files
+.env
+
+# ReadyAPI temporary files
+*.xml.bak
+*.tmp
+
+# IDE/workspace files
+.idea/
+.vscode/
+.project
+.settings/
 
