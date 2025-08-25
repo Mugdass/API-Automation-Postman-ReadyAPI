@@ -1,1 +1,14 @@
+name: Postman API Tests
+
+on: [push, pull_request]
+
+jobs:
+  postman-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Newman CLI
+        run: npm install -g newman
+      - name: Run Postman collection
+        run: newman run postman/SampleCollection.json
 
